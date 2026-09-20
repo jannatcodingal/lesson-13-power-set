@@ -1,0 +1,5 @@
+n=int(input("Enter a number (try 4 or 6): "))
+guess=input("How many bits differ between " + str(n) + " and 7?")
+input("XOR marks the differing bits - count the 1s. Press Enter")
+diff=bin(n ^ 7).count('1')
+print(" ", n, "^ 7 = binary", bin(n^7)[2:], " different bits:", diff, " your guess:", guess)
