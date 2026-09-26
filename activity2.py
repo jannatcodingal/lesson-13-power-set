@@ -1,4 +1,4 @@
-input("Bit probe - (n>>j) & 1 checksif bit j is ON. Press enter: ")
+input("Bit probe - (n>>j) & 1 checks if bit j is ON. Press enter: ")
 print(" 12 = binary", bin(12)[2:], " bit 2:", (12 >> 2) & 1, " bit 1:", (12 >> 1) & 1)
 print(" 7 = binary", bin(7)[2:], " bit 2:", (7 >> 2) & 1, " bit 1:", (7>>1) & 1)
 n=int(input("Enter a number (try 9 or 6): "))
